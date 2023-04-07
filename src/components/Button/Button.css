@@ -1,0 +1,24 @@
+.app__button {
+  margin:0 1rem;
+  list-style: none;
+}
+
+.app__button-link {
+  border: 2px solid var(--color-black);
+  font-family: var(--font-title);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.7479px;
+  line-height: 33px;
+
+  width: min-content;
+
+  padding: 0.25rem 0.5rem;
+  border-radius: 25px;
+  color: var(--color-black);
+}
+
+.app__button-link:hover {
+  background-color: var(--color-black);
+  color: var(--color-bg);
+}

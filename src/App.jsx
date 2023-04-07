@@ -7,7 +7,7 @@ import './App.css'
 const App = () => 
  
  (
-    <div className='app__wrapper'>
+    <div>
       <Navbar/>
       <Hero/>
       <Gallery/>
