@@ -18,10 +18,7 @@ a {
   color: unset;
   text-decoration: none;
 }
-body{
- 
-  background: var(--color-bg);
-}
+
 .section__padding {
   padding: 4rem 6rem;
 }
