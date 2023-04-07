@@ -1,0 +1,143 @@
+.app__card-container {
+  width: 600.35px;
+  height: 478.74px;
+  perspective: 1000px;
+}
+.app__card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+.app__card-container:hover > .app__card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.app__card-front,
+.app__card-back,
+.app__card-front img {
+  height: 100%;
+  width: 100%;
+  border:1px solid var(--color-black);
+  border-radius: 36px;
+  box-shadow: 3.63369px 3.63369px 0px var(--color-black);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.app__card-back {
+  background: var(--color-bg);
+  transform: rotateY(180deg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+  
+}
+
+.app__card-info_head {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+}
+.app__card-info_para {
+  max-width: 175px;
+  margin: 0 1rem 0 1rem;
+  font-family: var(--font-para);
+  font-weight: 400;
+  font-size: 13.0565px;
+  line-height: 16px;
+}
+.app__card-info_link {
+  border: 2px solid var(--color-black);
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: 21.7479px;
+  line-height: 33px;
+
+  padding: 0.25rem 0.5rem;
+  border-radius: 25px;
+  color: var(--color-black);
+}
+
+@media screen and (max-width: 1150px) {
+  .app__card-container {
+    width: 450px;
+    height: 350px;
+   
+  }
+  .app__card-back {
+   flex-direction: column;
+    
+  }
+  
+  .app__card-info_head {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .app__card-info_para {
+    max-width: 300px;
+    margin: 1rem 0 1rem 0;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .app__card-info_link {
+    font-size: 18px;
+    
+  }
+}
+@media screen and (max-width: 950px) {
+  .app__card-container {
+    width: 350px;
+    height: 250px;
+   
+  }  
+  .app__card-info_head {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .app__card-info_para {
+    max-width: 250px; 
+    font-size: 12px;
+    line-height: 14px;  
+  }
+
+  .app__card-info_link {
+    font-size: 16px;
+    
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__card-container {
+    width: 550px;
+    height: 450px;
+   
+  }  
+  .app__card-info_head {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .app__card-info_para {
+    max-width: 350px;   
+    font-size: 18px;
+    line-height: 21px;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .app__card-info_link {
+    font-size: 22px;
+    
+  }
+}
+@media screen and (max-width: 450px) {
+ 
+  .app__card-info_para {
+    max-width: 275px;   
+    font-size: 14px;
+    line-height: 16px;
+    margin: 2rem 0 2rem 0;
+  }
+}

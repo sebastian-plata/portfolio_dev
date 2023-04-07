@@ -1,0 +1,18 @@
+.app__gallery {
+  padding: 4rem 6rem;
+}
+
+.app__gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 3rem;
+}
+@media screen and (max-width: 650px) {
+    .app__gallery {
+        padding: 4rem 1.5rem;
+      } 
+}

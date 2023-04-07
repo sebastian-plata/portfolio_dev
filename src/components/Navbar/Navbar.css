@@ -24,6 +24,7 @@
 
 .app__navbar-smallscreen {
   display: none;
+  cursor: pointer;
 }
 .app__navbar-smallscreen_overlay {
   position: fixed;
@@ -33,6 +34,7 @@
   height: 100vh;
   background: var(--color-bg);
   transition: 0.5s ease;
+  
 
   flex-direction: column;
   gap: 2rem 0;

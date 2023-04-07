@@ -1,0 +1,15 @@
+.app__subtitle {
+  display: flex;
+  justify-content: flex-start;
+}
+.app__subtitle-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__subtitle-p {
+  font-family: var(--font-title);
+  font-weight: 500;
+  font-size: 40.3027px;
+  line-height: 78%;
+}
