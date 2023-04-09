@@ -24,6 +24,7 @@
   box-shadow: 3.63369px 3.63369px 0px var(--color-black);
   position: absolute;
   backface-visibility: hidden;
+  object-fit:cover;
 }
 
 .app__card-back {

@@ -1,103 +1,105 @@
-import images from "./images"
+import images from "./images";
 
 export const navLinks = [
-    {
-        href: "#projects",
-        title: "projects",
-      },
-      {
-        href: "#career",
-        title: "career",
-      },
-      {
-        href: "#skills",
-        title: "skills",
-      },
-      { href: "#contact",
-        title: "contact",
-      },
-]
+  {
+    href: "#projects",
+    title: "projects",
+  },
+  {
+    href: "#career",
+    title: "career",
+  },
+  {
+    href: "#skills",
+    title: "skills",
+  },
+  { href: "#contact", title: "contact" },
+];
 
 export const projects = [
   {
-    imgUrl: images.test1,
+    imgUrl: images.itsblue,
     title: "it's Blue",
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius mattis sem, vitae auctor risus. Suspendisse ligula turpis, ultrices maximus.",
-    link : "https://www.lipsum.com/feed/html"
+    content:
+      "Portfolio website designed an developed for architect and 3D artist, Melissa Usma",
+    link: "http://itsblu3d.com/itsBlue/",
   },
   {
-    imgUrl: images.test2,
-    title: "UI/UX webpage",
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius mattis sem, vitae auctor risus. Suspendisse ligula turpis, ultrices maximus.",
-    link : "example.com"
+    imgUrl: images.uiux,
+    title: "GPT3 webpage",
+    content:
+      "AI model themed webpage practice project, where I experimented with component creation and implementation",
+    link: "example.com",
   },
   {
-    imgUrl: images.test3,
+    imgUrl: images.restaurant,
     title: "restaurant app",
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius mattis sem, vitae auctor risus. Suspendisse ligula turpis, ultrices maximus.",
-    link : "example.com"
+    content:
+      "Practice project for restaurant client, where I practiced image display features and adding video tags in React",
+    link: "example.com",
   },
   {
-    imgUrl: images.test4,
+    imgUrl: images.bankapp,
     title: "bank app",
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius mattis sem, vitae auctor risus. Suspendisse ligula turpis, ultrices maximus.",
-    link : "example.com"
-  }
-]
+    content:
+      "bankapp application webpage that showcases the use of hover effects and background layering by using gradients",
+    link: "example.com",
+  },
+];
 export const frontend = [
   {
     src: images.illustrator,
-    title : "illustrator"
+    title: "illustrator",
   },
   {
     src: images.photoshop,
-    title : "photoshop"
+    title: "photoshop",
   },
   {
     src: images.indesign,
-    title : "indesign"
+    title: "indesign",
   },
   {
     src: images.xd,
-    title : "xd"
+    title: "xd",
   },
   {
     src: images.figma,
-    title : "figma"
+    title: "figma",
   },
   {
     src: images.html5,
-    title : "html5"
+    title: "html5",
   },
   {
     src: images.css3,
-    title : "css3"
+    title: "css3",
   },
   {
     src: images.javascript,
-    title : "javascript"
-  }
-]
+    title: "javascript",
+  },
+];
 
 export const backend = [
   {
     src: images.react,
-    title : "react"
+    title: "react",
   },
   {
     src: images.vite,
-    title : "vite"
+    title: "vite",
   },
   {
     src: images.node,
-    title : "node"
+    title: "node",
   },
   {
     src: images.npm,
-    title : "npm"
+    title: "npm",
   },
   {
     src: images.git,
-    title : "git"
-  }
-]
+    title: "git",
+  },
+];
