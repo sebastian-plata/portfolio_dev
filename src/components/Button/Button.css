@@ -6,7 +6,7 @@
 .app__button-link {
   border: 2px solid var(--color-black);
   font-family: var(--font-title);
-  font-style: normal;
+
   font-weight: 400;
   font-size: 21.7479px;
   line-height: 33px;

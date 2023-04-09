@@ -20,6 +20,10 @@ import vite from '../assets/vite.svg'
 import node from '../assets/node.svg'
 import npm from '../assets/npm.svg'
 import git from '../assets/git.svg'
+import linkedin from '../assets/linkedin.svg'
+import github from '../assets/github.svg'
+import arrowFooter from '../assets/arrowFooter.svg'
+
 
 
 export default {
@@ -41,5 +45,8 @@ export default {
   node,
   npm,
   git,
+  linkedin,
+  github,
+  arrowFooter
 
 };
