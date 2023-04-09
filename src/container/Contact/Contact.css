@@ -1,0 +1,83 @@
+.app__contact {
+  padding: 4rem 6rem;
+  width: 100%;
+}
+.app__contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.app__contact-container_email,
+.app__contact-container-phone {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.app__contact-container-phone {
+  margin-top: 1rem;
+}
+
+.app__contact-container_email-title,
+.app__contact-container_phone-title {
+  font-family: var(--font-title);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 78%;
+}
+.app__contact-container_email-para,
+.app__contact-container_phone-para {
+  font-family: var(--font-para);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 78%;
+}
+.app__contact-container_phone-para {
+  display: flex;
+  justify-content: flex-start;
+  width: 325px;
+}
+@media screen and (max-width: 1150px) {
+  .app__contact {
+    padding: 4rem 2.3rem;
+  }
+  .app__contact-container_email,
+  .app__contact-container-phone {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .app__contact-container_email,
+  .app__contact-container-phone {
+    width: 63%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__contact {
+    padding: 4rem 1.5rem;
+  }
+  .app__contact-container_email,
+  .app__contact-container-phone {
+    width: 78%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__contact-container_email,
+  .app__contact-container-phone {
+    width: 100%;
+  }
+  .app__contact-container_email-title,
+  .app__contact-container_phone-title {
+    font-size: 18px;
+    line-height: 78%;
+  }
+  .app__contact-container_email-para,
+  .app__contact-container_phone-para {
+    font-size: 18px;
+    line-height: 78%;
+  }
+  .app__contact-container_phone-para {
+    justify-content:flex-end;
+  }
+}

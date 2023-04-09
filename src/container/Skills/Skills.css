@@ -20,6 +20,9 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .app__skills {
+    padding: 4rem 2.3rem;
+  }
   .app__skills-container_top img,
   .app__skills-container_bottom img {
     transform: scale(0.9);

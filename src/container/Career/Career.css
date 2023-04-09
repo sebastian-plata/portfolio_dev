@@ -52,6 +52,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .app__career {
+    padding: 4rem 2.3rem;
+    
+  }
   .app__career-container {
     flex-direction: column;
   }
