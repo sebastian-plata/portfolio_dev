@@ -42,15 +42,15 @@
   font-family: var(--font-title);
   font-weight: 700;
   font-size: 25px;
-  line-height: 35px;
+  line-height: 1.6;
 }
 .app__card-info_para {
   max-width: 175px;
   margin: 0 1rem 0 1rem;
   font-family: var(--font-para);
   font-weight: 400;
-  font-size: 13.0565px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.6;
 }
 .app__card-info_link {
   border: 2px solid var(--color-black);
@@ -64,9 +64,35 @@
   color: var(--color-black);
 }
 
+@media screen and (max-width: 1280px) {
+  .app__card-container {
+    width: 45%;
+    height: 400px;
+   
+  }
+  .app__card-back {
+   flex-direction: column;
+    
+  }
+  
+  .app__card-info_head {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .app__card-info_para {
+    max-width: 300px;
+    margin: 1rem 0 1rem 0;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center; 
+  }
+  .app__card-info_link {
+    font-size: 18px;
+    
+  }
+}
 @media screen and (max-width: 1150px) {
   .app__card-container {
-    width: 450px;
     height: 350px;
    
   }
@@ -83,7 +109,8 @@
     max-width: 300px;
     margin: 1rem 0 1rem 0;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.6;
+    text-align: center; 
   }
   .app__card-info_link {
     font-size: 18px;
@@ -92,8 +119,8 @@
 }
 @media screen and (max-width: 950px) {
   .app__card-container {
-    width: 350px;
-    height: 250px;
+ 
+    height: 300px;
    
   }  
   .app__card-info_head {
@@ -103,7 +130,8 @@
   .app__card-info_para {
     max-width: 250px; 
     font-size: 12px;
-    line-height: 14px;  
+    line-height: 1.6; 
+    text-align: center; 
   }
 
   .app__card-info_link {
@@ -111,9 +139,33 @@
     
   }
 }
+@media screen and (max-width: 768px) {
+  .app__card-container {
+
+    height: 250px;
+   
+  }  
+  .app__card-info_head {
+    font-size: 28px;
+    line-height: 22px;
+  }
+  .app__card-info_para {
+    max-width: 350px;   
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0.75rem 0 0.75rem 0;
+    text-align: center;
+  }
+
+  .app__card-info_link {
+    
+    font-size: 14px;
+    
+  }
+}
 @media screen and (max-width: 650px) {
   .app__card-container {
-    width: 550px;
+    width:100%;
     height: 450px;
    
   }  
@@ -124,7 +176,7 @@
   .app__card-info_para {
     max-width: 350px;   
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.6;
     margin: 2rem 0 2rem 0;
   }
 
@@ -135,10 +187,15 @@
 }
 @media screen and (max-width: 450px) {
  
+  .app__card-info_head {
+    font-size: 30px;
+    line-height: 47px;
+  }
   .app__card-info_para {
     max-width: 275px;   
     font-size: 14px;
-    line-height: 16px;
-    margin: 2rem 0 2rem 0;
+    line-height: 1.6;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
   }
 }
