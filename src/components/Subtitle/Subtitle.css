@@ -11,5 +11,13 @@
   font-family: var(--font-title);
   font-weight: 500;
   font-size: 40.3027px;
-  line-height: 78%;
+  line-height: 1;
+}
+@media screen and (max-width: 450px) {
+  .app__subtitle-img {
+  
+    align-items: flex-start;
+    padding-top: 0.6rem ;
+    
+  }
 }

@@ -44,3 +44,60 @@ export const projects = [
     link : "example.com"
   }
 ]
+export const frontend = [
+  {
+    src: images.illustrator,
+    title : "illustrator"
+  },
+  {
+    src: images.photoshop,
+    title : "photoshop"
+  },
+  {
+    src: images.indesign,
+    title : "indesign"
+  },
+  {
+    src: images.xd,
+    title : "xd"
+  },
+  {
+    src: images.figma,
+    title : "figma"
+  },
+  {
+    src: images.html5,
+    title : "html5"
+  },
+  {
+    src: images.css3,
+    title : "css3"
+  },
+  {
+    src: images.javascript,
+    title : "javascript"
+  }
+]
+
+export const backend = [
+  {
+    src: images.react,
+    title : "react"
+  },
+  {
+    src: images.vite,
+    title : "vite"
+  },
+  {
+    src: images.node,
+    title : "node"
+  },
+  {
+    src: images.npm,
+    title : "npm"
+  },
+  {
+    src: images.git,
+    title : "git"
+  }
+]
