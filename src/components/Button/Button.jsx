@@ -6,7 +6,7 @@ import './Button.css'
 const Button = ({title, id}) => (
     <ul>
       <li className='app__button'>
-          <a href={`${navLinks.href}`} className='app__button-link'>{title}</a>
+          <p className='app__button-link'>{title}</p>
         </li>
         </ul>
   

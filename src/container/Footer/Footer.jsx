@@ -9,7 +9,7 @@ const Footer = () => (
           &copy; im<strong>juan</strong>2023
         </p>
         <div className="app__footer-container_button">
-          <a href="/" className="app__footer-container_button-anchor">
+          <a href="#home" className="app__footer-container_button-anchor">
             <span><img src={images.arrowFooter} alt="arrow_footer" className="app__footer-container_button-anchor_icon" /></span>
             <span className="app__footer-container_button-anchor_text">back to top</span>
           </a>
