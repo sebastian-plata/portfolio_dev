@@ -81,3 +81,17 @@
     justify-content:flex-end;
   }
 }
+@media screen and (max-width: 350px) {
+ 
+  .app__contact-container_email-title,
+  .app__contact-container_phone-title {
+    font-size: 14px;
+    line-height: 78%;
+  }
+  .app__contact-container_email-para,
+  .app__contact-container_phone-para {
+    font-size: 14px;
+    line-height: 78%;
+  }
+
+}
