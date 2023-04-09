@@ -4,7 +4,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className='app__contact' style={{ backgroundColor: "#f1f1e8" }}>
+    <div id='contact' className='app__contact' style={{ backgroundColor: "#f1f1e8" }}>
       <Subtitle title="come say hi"/>
       <div className='app__contact-container'>
         <div className='app__contact-container_email'>

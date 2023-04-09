@@ -4,7 +4,7 @@ import images from "../../constants/images";
 import "./Career.css";
 
 const Career = () => (
-  <div className="app__career" style={{ backgroundColor: "#f1f1e8" }}>
+  <div id="career" className="app__career" style={{ backgroundColor: "#f1f1e8" }}>
     <Subtitle title="who is this guy?" />
     <div className="app__career-container">
       <div className="app__career-container_img">

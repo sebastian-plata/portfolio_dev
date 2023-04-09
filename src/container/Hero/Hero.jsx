@@ -10,7 +10,7 @@ const Hero = () =>  (
       <div className='app__hero-info'>
         <h1 className='app__hero-info_head'>i&apos;m juan,</h1>
         <p className='app__hero-info_para'>My goal is to create stuff that people find appealing but also easy to use. </p>
-        <a className='app__hero-info_link' href="">hire me!</a>
+        <a className='app__hero-info_link' href="#contact">hire me!</a>
       </div>
     </section>
   )

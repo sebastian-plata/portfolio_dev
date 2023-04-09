@@ -1,11 +1,12 @@
 import React from 'react'
+import { navLinks } from '../../constants/data'
 import './Button.css'
-import { navLinks } from '../../constants/data';
+
 
 const Button = ({title, id}) => (
     <ul>
       <li className='app__button'>
-          <a href={`${navLinks.id}`} className='app__button-link'>{title}</a>
+          <a href={`${navLinks.href}`} className='app__button-link'>{title}</a>
         </li>
         </ul>
   

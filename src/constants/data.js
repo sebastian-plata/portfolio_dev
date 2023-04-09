@@ -2,18 +2,18 @@ import images from "./images"
 
 export const navLinks = [
     {
-        id: "projects",
+        href: "#projects",
         title: "projects",
       },
       {
-        id: "career",
+        href: "#career",
         title: "career",
       },
       {
-        id: "skills",
+        href: "#skills",
         title: "skills",
       },
-      {  id: "contact",
+      { href: "#contact",
         title: "contact",
       },
 ]

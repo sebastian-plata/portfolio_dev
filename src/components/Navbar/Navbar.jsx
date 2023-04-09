@@ -16,9 +16,9 @@ const Navbar = () => {
         <img src={images.imjuan} alt="imjuan logo" />
       </div>
       <div className='app__navbar-links'>
-        {navLinks.map((nav) => (
-        <Button key={nav.id} title={nav.title}/>
-        ))}
+         {navLinks.map((nav) => (
+        <Button key={nav.title} title={nav.title}/>
+        ))} 
       </div>
       <div className='app__navbar-blank'/>
       <div className='app__navbar-smallscreen'>
