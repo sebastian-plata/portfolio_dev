@@ -4,6 +4,7 @@
 }
 
 .app__skills-container {
+  width:100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +13,7 @@
 }
 .app__skills-container_top,
 .app__skills-container_bottom {
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,12 +51,18 @@
     width: 550px;
   }
 }
+@media screen and (max-width: 768px) {
+ 
+  .app__skills-container_top {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 650px) {
   .app__skills {
     padding: 4rem 1.5rem;
   }
   .app__skills-container_top {
-    width: 450px;
+    width: 80%;
   }
 }
 @media screen and (max-width: 450px) {
