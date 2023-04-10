@@ -23,6 +23,7 @@ import git from '../assets/git.svg'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 import arrowFooter from '../assets/arrowFooter.svg'
+import portafolio from '../assets/portafolio.jpg'
 
 
 
@@ -47,6 +48,7 @@ export default {
   git,
   linkedin,
   github,
-  arrowFooter
+  arrowFooter,
+  portafolio
 
 };

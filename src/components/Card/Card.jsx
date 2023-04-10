@@ -7,7 +7,7 @@ const Card = ({ imgUrl, title, content, link }) => {
     <div className="app__card-container">
       <div className="app__card">
         <div className="app__card-front">
-          <img src={imgUrl} alt="" />
+          <img src={imgUrl} alt="card image" />
         </div>
         <div className="app__card-back">
           <p className="app__card-info_head">{title}</p>

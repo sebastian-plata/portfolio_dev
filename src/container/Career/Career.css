@@ -13,15 +13,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f;
   width: 398px;
-  height: 361px;
+  height: auto;
   border-radius: 30px;
+  object-fit:cover;
+  overflow:hidden;
+  
 }
 .app__career-container_img img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  transform:scale(1.1);
+  
 }
 
 .app__career-container-info {
@@ -51,6 +54,7 @@
   flex: 1;
 }
 
+
 @media screen and (max-width: 1150px) {
   .app__career {
     padding: 4rem 2.3rem;
@@ -61,10 +65,17 @@
   }
   .app__career-container_img {
     width: 700px;
+ 
   }
   .app__career-container-info {
     gap: 2.5rem;
     margin: 2.5rem 0 0 0;
+    align-items:flex-start;
+  }
+  .app__career-container_img img {
+      
+    transform:scale(1);
+    
   }
 }
 @media screen and (max-width: 950px) {
@@ -92,5 +103,11 @@
     .app__career-container-info,
     .app__career-container_img{
         width: 95%;
+    }
+   
+    .app__career-container_img img {
+      
+      transform:scale(1.1);
+      
     }
 }

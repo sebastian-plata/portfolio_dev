@@ -21,7 +21,7 @@ export const projects = [
     imgUrl: images.itsblue,
     title: "it's Blue",
     content:
-      "Portfolio website designed an developed for architect and 3D artist, Melissa Usma",
+      "Portfolio website designed and developed for architect and 3D artist, Melissa Usma",
     link: "http://itsblu3d.com/itsBlue/",
   },
   {
@@ -29,21 +29,21 @@ export const projects = [
     title: "GPT3 webpage",
     content:
       "AI model themed webpage practice project, where I experimented with component creation and implementation",
-    link: "example.com",
+    link: "https://sebastian-plata.github.io/jsmastery_project-1/",
   },
   {
     imgUrl: images.restaurant,
     title: "restaurant app",
     content:
       "Practice project for restaurant client, where I practiced image display features and adding video tags in React",
-    link: "example.com",
+    link: "https://sebastian-plata.github.io/jsmastery_project-2/",
   },
   {
     imgUrl: images.bankapp,
     title: "bank app",
     content:
       "bankapp application webpage that showcases the use of hover effects and background layering by using gradients",
-    link: "example.com",
+    link: "https://jsmastery-project-3.vercel.app/",
   },
 ];
 export const frontend = [
